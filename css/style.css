@@ -1,6 +1,98 @@
 body {
-  background-color: blue;
-  color: red;
+  background-color: #E8EBED;
+  margin: auto;
+}
+
+h1 {
+  font-size: 6.8vw;
+  color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #1a1a1a;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+p {
+  font-family: "STIX Two Text", serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.headline {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  border: 1px solid #454545;
+  border-radius: 40px;
+  height: 50px;
+}
+
+.form-select {
+  width: 25%;
+  border: none;
+  background: none;
+  border-right: 1px solid #454545;
+  border-radius: 0;
+  padding-left: 3%;
+}
+.form-select:hover {
+  -moz-box-shadow: inset 0 0 5px #454545;
+  -webkit-box-shadow: inset 0 0 5px #454545;
+  box-shadow: inset 0 0 5px #454545;
+  cursor: pointer;
+}
+
+.left {
+  border-radius: 40px 0 0 40px;
+}
+
+.btn-custom {
+  width: 25%;
+  border-radius: 0 40px 40px 0;
+  background: #1a1a1a;
+  border: none;
+  color: #E8EBED;
+}
+.btn-custom:hover {
+  background: #292929;
+  color: #f1f4f6;
+  -moz-box-shadow: inset 0 0 10px #454545;
+  -webkit-box-shadow: inset 0 0 10px #454545;
+  box-shadow: inset 0 0 10px #454545;
+}
+
+.text-primary {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
